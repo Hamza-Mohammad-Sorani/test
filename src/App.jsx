@@ -8,7 +8,7 @@ function App() {
   useEffect( () => {
     callApi();
     setbookTitles( titles );
-    console.log('from forTest branch')
+    console.log('from main')
     getTitles();
   },[] );
   const callApi = () => {
