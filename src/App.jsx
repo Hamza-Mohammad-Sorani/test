@@ -9,6 +9,7 @@ function App() {
     callApi();
     setbookTitles( titles );
     console.log('from main')
+    console.log('from branch2')
     getTitles();
   },[] );
   const callApi = () => {

@@ -1,0 +1,10 @@
+diff a/src/App.jsx b/src/App.jsx	(rejected hunks)
+@@ -8,7 +8,7 @@
+   useEffect( () => {
+     callApi();
+     setbookTitles( titles );
+-    console.log('from forTest branch')
++    console.log('from main')
+     getTitles();
+   },[] );
+   const callApi = () => {
